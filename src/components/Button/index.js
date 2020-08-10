@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
   color: var(--white);
+  background: var(--black);
   border: 1px solid var(--white);
   box-sizing: border-box;
   cursor: pointer;
@@ -21,4 +22,4 @@ const Button = styled.button`
   }
 `;
 
-export default Button
+export default Button;
