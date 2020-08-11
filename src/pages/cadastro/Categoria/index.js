@@ -27,7 +27,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     setTimeout(() => {
-      const url = 'http://localhost:8080/categorias';
+      const url = 'https://musicflixx.herokuapp.com/categorias';
       fetch(url)
         .then(async (res) => {
           const resposta = await res.json();
